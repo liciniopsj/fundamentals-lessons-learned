@@ -13,7 +13,8 @@ body {
     width: 100%;
     text-align: center;
     left: 0;
-    border-bottom: 1px solid black;    
+    border-bottom: 1px solid black;
+    z-index: 1;    
 }
 #tabela {
     border:1px solid black;
@@ -27,6 +28,9 @@ body {
 #tabela td {
     border:1px solid black;
     padding:5px;
+}
+#article {
+    margin-top: 520px;
 }
 #learned {
     font-family: monospace , sans-serif;
@@ -42,14 +46,18 @@ body {
     text-align: justify;
 }
 .lado-esquerdo {
-    margin-top: 100px;
-    display: inline-block;
-    
+    float:none;
+    width: 50%;
+    position: absolute;
+    top: 110px;
 }
 .lado-direito {
     
-    display: inline-block;
-    width: 48%;
-    margin-left: 100px;
-    
+    /* display: inline-block; */
+    width: 50%;
+    /* margin-left: 100px; */
+    float:none;
+    position: absolute;
+    top: 110px;
+    left: 520px;
 }
