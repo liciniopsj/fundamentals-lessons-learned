@@ -34,3 +34,16 @@ body {
 
 }
 
+#tabela {
+    border:1px solid black;
+    padding:5px;
+}
+#tabela th {
+    border:1px solid black;
+    padding:5px;
+    background: white;
+}
+#tabela td {
+    border:1px solid black;
+    padding:5px;
+}
