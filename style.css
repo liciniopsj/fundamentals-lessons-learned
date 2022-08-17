@@ -1,63 +1,66 @@
-* {
-    /* border: 2px solid red; */
-    /* margin: 0px; */
-}
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
-    position: fixed;
-    background-color: aquamarine;
-    top: 0;
-    padding: 10px 16px;
-    width: 100%;
-    text-align: center;
-    left: 0;
-    border-bottom: 1px solid black;
-    z-index: 1;    
+  position: fixed;
+  background-color: aquamarine;
+  top: 0;
+  padding: 10px 16px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  border-bottom: 1px solid black;
+  z-index: 1;
 }
+
 #tabela {
-    border:1px solid black;
-    padding:5px;
+  border: 1px solid black;
+  padding: 5px;
 }
+
 #tabela th {
-    border:1px solid black;
-    padding:5px;
-    background: white;
+  border: 1px solid black;
+  padding: 5px;
+  background: white;
 }
+
 #tabela td {
-    border:1px solid black;
-    padding:5px;
+  border: 1px solid black;
+  padding: 5px;
 }
+
 #article {
-    margin-top: 520px;
+  margin-top: 520px;
 }
+
 #learned {
-    font-family: monospace , sans-serif;
+  font-family: monospace , sans-serif;
 }
+
 #learned-tittle {
-    color: green;
+  color: green;
 }
+
 #aboutme {
-    font-size: small;
-    font-family: monospace , sans-serif;
-    line-height: 95%;
-    width: 50%;
-    text-align: justify;
+  font-size: small;
+  font-family: monospace , sans-serif;
+  line-height: 95%;
+  width: 50%;
+  text-align: justify;
 }
+
 .lado-esquerdo {
-    float:none;
-    width: 50%;
-    position: absolute;
-    top: 110px;
+  float: none;
+  width: 50%;
+  position: absolute;
+  top: 110px;
 }
+
 .lado-direito {
-    
-    /* display: inline-block; */
-    width: 50%;
-    /* margin-left: 100px; */
-    float:none;
-    position: absolute;
-    top: 110px;
-    left: 520px;
+  width: 50%;
+  float: none;
+  position: absolute;
+  top: 110px;
+  left: 520px;
 }
