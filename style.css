@@ -1,5 +1,5 @@
 * {
-    border: 2px solid red; /* Placeholder margin -- LEMBRE DE TIRAR */
+    /* border: 2px solid red; Placeholder margin -- LEMBRE DE TIRAR */
     /* margin: 0px; */
 }
 
@@ -11,6 +11,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    
 }
 
 #titulo {
@@ -22,6 +23,14 @@ body {
 }
 
 #licoes_aprendidas {
+
+}
+
+#licoes_a_aprender {
+
+}
+
+#rodape {
 
 }
 
