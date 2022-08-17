@@ -2,38 +2,25 @@
     /* border: 2px solid red; Placeholder margin -- LEMBRE DE TIRAR */
     /* margin: 0px; */
 }
-
 body {
     background-color: rgb(253, 251, 251);
 }
-
 #cabecalho {
     position: fixed;
     top: 0;
-    width: 100%;
-    
+    width: 100%;    
 }
-
 #titulo {
-
 }
-
 #minha_foto {
     width: 25%;
 }
-
 #licoes_aprendidas {
-
 }
-
 #licoes_a_aprender {
-
 }
-
 #rodape {
-
 }
-
 #tabela {
     border:1px solid black;
     padding:5px;
@@ -46,4 +33,10 @@ body {
 #tabela td {
     border:1px solid black;
     padding:5px;
+}
+#learned {
+    font-family: monospace , sans-serif;
+}
+#aboutme {
+
 }
